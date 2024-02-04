@@ -8,17 +8,35 @@
     .container {
       width: 915px;
     }
+    .cardes-tec{
+      padding: 20px;
+      margin: 20px;
+    }
+    .tecnologias{
+      width: 50px;
+    }
 }
   
 @media (max-width: 915px) {
     .container {
         width: 665px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 665px) {
     .container {
       width: 475px;
+      display: flex;
+      flex-direction: column;
+    }
+    .cardes-tec{
+      padding: 15px;
+      margin: 15px;
+    }
+    .tecnologias{
+      width: 45px;
     }
 }
   

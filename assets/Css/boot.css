@@ -17,4 +17,14 @@ body{
 }
 .container{
     width: 1150px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

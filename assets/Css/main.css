@@ -1,6 +1,5 @@
 main section .container-1{
     width: 380px;
-    padding: 0 20px;
 
 }
 main section div h1{
@@ -14,4 +13,25 @@ main section div h2{
 main section div p{
     font-size: 25px;
     color: aliceblue;
+}
+#tec{
+    margin-left:20px ;
+}
+#tec-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardes-tec{
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cardes-tec:hover{
+    background: azure;
+    cursor: pointer;
+}
+.tecnologias{
+    width: 60px;
 }
