@@ -1,11 +1,11 @@
 @media (max-width: 1150px) {
-    .container {
+    .container, .projets{
       width: 1024px;
     }
 }
   
 @media (max-width: 1024px) {
-    .container {
+    .container, .projets {
       width: 915px;
     }
     .cardes-tec{
@@ -18,7 +18,7 @@
 }
   
 @media (max-width: 915px) {
-    .container {
+    .container, .projets{
         width: 665px;
         display: flex;
         flex-direction: column;
@@ -26,10 +26,8 @@
 }
 
 @media (max-width: 665px) {
-    .container {
+    .container, .projets{
       width: 475px;
-      display: flex;
-      flex-direction: column;
     }
     .cardes-tec{
       padding: 15px;
@@ -41,7 +39,7 @@
 }
   
 @media (max-width: 450px) {
-    .container {
+    .container, .projets{
       width: 420px;
     }
 }

@@ -35,3 +35,31 @@ main section div p{
 .tecnologias{
     width: 60px;
 }
+.projets{
+    width: 1150px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Projetos{
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+.img-projets{
+    width: 100px;
+    margin: 0 20px 0 0 ;
+}
+.titulo-projets{
+    color: black;
+    font-size: 20px;
+}
+.descric-projets{
+    color: black;
+    font-size: 14px;
+}
