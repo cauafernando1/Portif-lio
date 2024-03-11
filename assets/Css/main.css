@@ -28,12 +28,50 @@ main section div p{
     margin: 20px;
     border-radius: 10px;
 }
-.cardes-tec:hover{
+.cardes-tec:hover, .Projetos:hover{
     background: azure;
     cursor: pointer;
 }
 .tecnologias{
     width: 60px;
+}
+.div-cont{
+    width: 770px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contato{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 370px;
+    height: 70px;
+    margin: 10px 30px 10px 0;
+    border: solid 2px rgba(68, 68, 68, 0.3);
+    box-shadow: 10px 10px 10px rgba(68, 68, 68, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato:hover{
+    background-color: rgba(0, 0, 0, 0.01);
+    cursor: pointer;
+}
+.cont-nome{
+    color: rgb(0, 0, 99);
+}
+.color-cont{
+    color: aqua;
+}
+.email{
+    font-size: 17px;
+    color: aqua;
 }
 .projets{
     width: 1150px;

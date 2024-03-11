@@ -23,6 +23,13 @@
         display: flex;
         flex-direction: column;
     }
+    .div-cont{
+      width: 430px;
+    }
+    .contatos{
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 @media (max-width: 665px) {
@@ -39,7 +46,13 @@
 }
   
 @media (max-width: 450px) {
-    .container, .projets{
+    .container,  .div-cont{
       width: 420px;
     }
-}
+    .projets{
+      width: 370px;
+    }
+    .container{
+      margin: 10px 0;
+    }
+  }
